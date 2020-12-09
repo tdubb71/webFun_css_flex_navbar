@@ -1,0 +1,65 @@
+/* Part 1 Center Box */
+
+.center-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    min-height: 288px;
+    margin-bottom: 100px;
+}
+.center-item {
+    
+    background-color: palegoldenrod;
+    width:100px;
+    height: 100px;
+}
+
+
+/* Part 2 Coding Dojo Nav Bar */
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #6495ED;
+    height: 120px;
+
+}
+
+img {
+    height: 80px;
+    margin: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px
+
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+
+
+}
+li {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+a {
+    text-decoration: none;
+    margin-left: 175px;
+    color: white;
+}
+
+
+
