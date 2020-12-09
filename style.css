@@ -1,3 +1,12 @@
+* {
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+
 /* Part 1 Center Box */
 
 .center-box {
@@ -21,43 +30,36 @@
 #nav {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     background-color: #6495ED;
     height: 120px;
-
+    
 }
-
 img {
-    height: 80px;
+    height: 60px;
     margin: 20px;
 }
-
 h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 50px
-
+    font-size: x-large;
+    margin-left: 50px;
+    
 }
-
-
-
 ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-left: 200px;
-
-
+    
+    width: 650px;
 }
 li {
     display: flex;
     align-items: center;
-
-    
+       
 }
-
 a {
     text-decoration: none;
-    margin-left: 175px;
     color: white;
 }
 
