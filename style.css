@@ -32,8 +32,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #6495ED;
-    height: 120px;
-    
+    height: 120px;  
 }
 img {
     height: 60px;
@@ -43,20 +42,17 @@ h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
-    margin-left: 50px;
-    
+    margin-left: 50px;    
 }
 ul {
     display: flex;
     justify-content: space-between;
     margin-left: 200px;
-    
     width: 650px;
 }
 li {
     display: flex;
-    align-items: center;
-       
+    align-items: center;      
 }
 a {
     text-decoration: none;
